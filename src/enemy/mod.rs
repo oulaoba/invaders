@@ -116,7 +116,7 @@ fn enemy_fire_criteria() -> bool {
 
 /// 敌人移动系统
 ///
-/// 两点见的距离公式 $|AB|=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$
+/// 两点间的距离公式 $|AB|=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$
 fn enemy_movement_system(mut query: Query<(&mut Transform, &mut Formation), With<Enemy>>) {
     // 当前时间
     // let now = time.elapsed_seconds();
