@@ -24,7 +24,8 @@
 ·
 ├── assets/
 │   ├──audios/
-│   ├──images/
+│   ├──fonts/
+│   └──images/
 ├── src/
 │   ├──enemy/
 │   │  ├── formation.rs
@@ -40,6 +41,7 @@
 ```
 
 - assets/audios 声音资源文件。
+- assets/fonts 字体资源文件。
 - assets/images 图片资源文件。
 - enemy/formation.rs 敌人阵型系统的实现。
 - enemy/mod.rs 敌人插件，生成、移动、攻击的实现。
