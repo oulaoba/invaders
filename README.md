@@ -45,14 +45,14 @@
 - assets/images 图片资源文件。
 - enemy/formation.rs 敌人阵型系统的实现。
 - enemy/mod.rs 敌人插件，生成、移动、攻击的实现。
-- components.rs 负责游戏的逻辑、控制、等内容。
+- components.rs 游戏组件定义。
 - constants.rs 负责存储游戏中用到的常量。
 - main.rs 负责游戏的逻辑、控制、等内容。
 - player.rs 玩家角色插件，生成、移动、攻击、键盘处理的实现。
 - resource.rs 游戏资源定义。
-- state.rs 游戏组件定义。
+- state.rs 游戏状态管理。
 
 ## about me 
 目前失业，在家学习 rust 。
 
-我的 [bilibili](https://space.bilibili.com/259260787),我的 [博客园](https://www.cnblogs.com/SantiagoZhang/)。
+我的 [bilibili](https://space.bilibili.com/259260787),我的 [博客园](https://www.cnblogs.com/SantiagoZhang)。
